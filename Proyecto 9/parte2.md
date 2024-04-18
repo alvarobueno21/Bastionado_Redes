@@ -46,11 +46,11 @@ Ahora pondremos el tema de HTTPS, para ello nos vamos a esta guía: <https://cer
 
 **Trusted:** Ambos certificados son confiables por los principales navegadores y sistemas operativos.
 
-Estos son los datos de mi certificado, que lo hemos sacado con SSL Labs:
+## Certificado Sitio Web Alvaro:
 
 ![img5](img/5.png)
 
-Y esto son los datos de un certificado de Gmail de Google:
+## Certificado de Gmail (Google):
 
 ![img6](img/6.png)
 
