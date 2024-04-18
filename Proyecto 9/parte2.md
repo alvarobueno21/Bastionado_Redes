@@ -1,20 +1,20 @@
-# PARTE 2 vía realista
+# Parte 2: Vía realista
 
 A continuación, nos vamos a Duck DNS y hacemos un subdominio nuevo y en current IP meteremos la IP de nuestro Ubuntu de DigitalOcean.
 
-![img1](img/Aspose.Words.76d9b43d-2804-4deb-b36b-29104b9f30b8.001.png)
+![img1](img/duckdns.png)
 
 Y ahora instalaremos nginx a través de SSH:
 
-![img2](img/Aspose.Words.76d9b43d-2804-4deb-b36b-29104b9f30b8.002.png)
+![img2](img/ssh.png)
 
 Y si nos vamos a la página web ya nos saldrá la página de inicio:
 
-![img3](img/Aspose.Words.76d9b43d-2804-4deb-b36b-29104b9f30b8.003.png)
+![img3](img/nginx.png)
 
 Ahora pondremos el tema de HTTPS, para ello nos vamos a esta guía: <https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal> y meteremos los comandos que nos dice la página, meteremos 
 
-![img4](img/Aspose.Words.76d9b43d-2804-4deb-b36b-29104b9f30b8.004.png)
+![img4](img/sitioalvaro.png)
 
 ## Análisis y comparación de diferencias entre certificados:
 
@@ -48,9 +48,9 @@ Ahora pondremos el tema de HTTPS, para ello nos vamos a esta guía: <https://cer
 
 Estos son los datos de mi certificado, que lo hemos sacado con SSL Labs:
 
-![img5](img/Aspose.Words.76d9b43d-2804-4deb-b36b-29104b9f30b8.005.png)
+![img5](img/ssl1.png)
 
 Y esto son los datos de un certificado de Gmail de Google:
 
-![ref1]
+![img6](img/ssl2.png)
 
