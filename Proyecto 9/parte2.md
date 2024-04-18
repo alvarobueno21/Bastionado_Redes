@@ -2,7 +2,7 @@
 
 A continuación, nos vamos a Duck DNS y hacemos un subdominio nuevo y en current IP meteremos la IP de nuestro Ubuntu de DigitalOcean.
 
-![img1](img/duckdns.png)
+![img1](img/duckdnss.png)
 
 Y ahora instalaremos nginx a través de SSH:
 
