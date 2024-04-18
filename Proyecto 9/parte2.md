@@ -6,15 +6,15 @@ A continuación, nos vamos a Duck DNS y hacemos un subdominio nuevo y en current
 
 Y ahora instalaremos nginx a través de SSH:
 
-![img2](img/ssh.png)
+![img2](img/2.png)
 
 Y si nos vamos a la página web ya nos saldrá la página de inicio:
 
-![img3](img/nginx.png)
+![img3](img/3.png)
 
 Ahora pondremos el tema de HTTPS, para ello nos vamos a esta guía: <https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal> y meteremos los comandos que nos dice la página, meteremos 
 
-![img4](img/sitioalvaro.png)
+![img4](img/4.png)
 
 ## Análisis y comparación de diferencias entre certificados:
 
@@ -48,9 +48,9 @@ Ahora pondremos el tema de HTTPS, para ello nos vamos a esta guía: <https://cer
 
 Estos son los datos de mi certificado, que lo hemos sacado con SSL Labs:
 
-![img5](img/ssl1.png)
+![img5](img/5.png)
 
 Y esto son los datos de un certificado de Gmail de Google:
 
-![img6](img/ssl2.png)
+![img6](img/6.png)
 
