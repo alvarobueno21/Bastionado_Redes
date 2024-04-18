@@ -1,5 +1,5 @@
 
-# PARTE 3 REALISTA
+# Parte 3: Vía realista
 
 Ahora analizaremos el certificado válido del sitio web de la parte 2, en este caso es el certificado de la página web de Gmail:
 
@@ -45,9 +45,4 @@ Y por último tenemos este certificado que está autofirmado y es inválido, ya 
 1. **Trusted**: Por último, tenemos que el certificado nos dice que está Not Trusted, es decir que no es de confianza ya puede ser por una configuración inválida o un certificado inválido o que la autoridad de certificación sea desconocida.
 
 ![imgselfsigned](img/selfsigned.png)
-
-
-
-[ref1]: Aspose.Words.76d9b43d-2804-4deb-b36b-29104b9f30b8.006.jpeg
-[ref2]: Aspose.Words.76d9b43d-2804-4deb-b36b-29104b9f30b8.007.jpeg
 
