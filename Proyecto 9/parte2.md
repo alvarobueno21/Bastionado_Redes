@@ -1,12 +1,8 @@
-PARTE 2 vía realista
+# PARTE 2 vía realista
 
-Luego nos vamos a Duck DNS y hacemos un subdominio nuevo y en current IP meteremos la IP de nuestro Ubuntu de DigitalOcean.
-
-Img2
+A continuación, nos vamos a Duck DNS y hacemos un subdominio nuevo y en current IP meteremos la IP de nuestro Ubuntu de DigitalOcean.
 
 ![img1](img/Aspose.Words.76d9b43d-2804-4deb-b36b-29104b9f30b8.001.png)
-
-
 
 Y ahora instalaremos nginx a través de SSH:
 
@@ -20,8 +16,7 @@ Ahora pondremos el tema de HTTPS, para ello nos vamos a esta guía: <https://cer
 
 ![img4](img/Aspose.Words.76d9b43d-2804-4deb-b36b-29104b9f30b8.004.png)
 
-
-Análisis y comparación de diferencias entre certificados:
+## Análisis y comparación de diferencias entre certificados:
 
 **Subject:** Cada uno es distinto ya que son dominios distintos, uno es de mi página web y el otro es de Google.
 
@@ -31,9 +26,9 @@ Análisis y comparación de diferencias entre certificados:
 
 **Serial Number**: Cada uno tiene su número de serie distinto e identificativo.
 
-**Validity Period:** alvaroredes.duckdns.org**:** Válido desde el 16 de abril de 2024 hasta el 15 de julio de 2024.
+**Validity Period:** alvaroredes.duckdns.org: Válido desde el 16 de abril de 2024 hasta el 15 de julio de 2024.
 
-[www.google.com](http://www.google.com/)**:** Válido desde el 18 de marzo de 2024 hasta el 10 de junio de 2024. Esto indica que el certificado de alvaroredes.duckdns.org tiene un período de validez ligeramente mayor.
+[www.google.com](http://www.google.com/): Válido desde el 18 de marzo de 2024 hasta el 10 de junio de 2024. Esto indica que el certificado de alvaroredes.duckdns.org tiene un período de validez ligeramente mayor.
 
 **Key:** Ambos tienen la EC 256 bits lo que indica que ambos usan criptografía de curva elíptica de alta seguridad.
 
